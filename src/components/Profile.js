@@ -13,7 +13,7 @@ const Profile = () => {
                     <p className="name">M.I</p>
                     <span className="subttl">Age / Gender</span>
                     <p className="age">27歳 / 女性</p>
-                    <p className="description">過去にコーダーとして働いた経験があり、百貨店のLPページの制作に携わりました。趣味は最近独学で始めたピアノで、気分転換に弾きます。
+                    <p className="description">過去にWebマーケティング会社、Web制作会社でコーダーとして働いた経験があります。<br/>現在はフロントエンドエンジニアとして知識をReact学習中です。趣味は、最近始めたピアノです。
                     </p>
                 </div>
             </section>

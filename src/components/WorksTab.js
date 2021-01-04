@@ -20,6 +20,8 @@ const useStyles = makeStyles(() => ({
 const WorksTab = () => {
     const classes = useStyles();
     const [selectedTab, setSelectedTab] = useState(0)
+    const [gallerySwiper, setGallerySwiper] = useState(undefined)
+    const [thumbnailSwiper, setThumbnailSwiper] = useState(undefined)
 
     const handleChange = (event, newValue) => {
         setSelectedTab(newValue)
@@ -31,8 +33,8 @@ const WorksTab = () => {
           <Tab className={classes.tab} label="Coding" />
           <Tab className={classes.tab} label="Javascript" />
         </Tabs>
-        { selectedTab === 0 && <WorksCoding /> }
-        { selectedTab === 1 && <WorksJs /> }
+        { selectedTab === 0 && <WorksCoding gallerySwiper={gallerySwiper} setGallerySwiper={setGallerySwiper} thumbnailSwiper={thumbnailSwiper} setThumbnailSwiper={setThumbnailSwiper}/> }
+        { selectedTab === 1 && <WorksJs gallerySwiper={gallerySwiper} setGallerySwiper={setGallerySwiper} thumbnailSwiper={thumbnailSwiper} setThumbnailSwiper={setThumbnailSwiper}/> }
     </>
     )
 }

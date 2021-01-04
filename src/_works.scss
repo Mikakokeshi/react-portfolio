@@ -1,0 +1,229 @@
+/* works */
+.works {
+    p.description {
+      text-align: center;
+    }
+  
+    .Mui-selected span {
+      color: $secondary-color
+    }
+  
+    .works_item {
+      width: 240px;
+      /* height: 160px; */
+      margin: 0 25px;
+    }
+  
+    .works_list {
+      display: flex;
+      padding-bottom: 60px;
+    }
+  
+    .works_img {
+      height: 160px;
+      z-index: 1;
+      display: block;
+      overflow-Y: hidden;
+      box-shadow: 0px 4px 34px 0px rgba(108, 128, 133, 0.3);
+    }
+  
+    .works_txt {
+      text-align: center;
+      font-size: 16px;
+      font-weight: 700;
+      padding: 15px 0;
+  
+      &:hover {
+        color: $secondary-color;
+      }
+    }
+  
+    .works_img_wrap {
+      display: flex;
+      justify-content: center;
+      position: relative;
+  
+      &::after {
+        @include pseudo;
+        width: 100%;
+        height: 100%;
+        background: rgba(222, 250, 255, 1);
+        mix-blend-mode: multiply;
+      }
+  
+      &:hover {
+        background: rgba(222, 250, 255, 0.4);
+      }
+  
+      &:hover::after {
+        background: rgba(222, 250, 255, 0.6);
+        z-index: 2;
+        /* filter: blur(10px); */
+        mix-blend-mode: multiply;
+      }
+  
+    }
+  }
+  
+  
+  
+  /* モーダル */
+  .modal_area {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    background-color: rgba(0, 0, 0, .7);
+    color: $primary-color;
+    z-index: 3;
+  
+    .head {
+      text-align: center;
+      background: $secondary-color;
+      color: #fff;
+      padding: 17px 0 10px;
+      font-size: 26px;
+      font-weight: bold;
+      border-radius: 15px 15px 0 0;
+    }
+  
+    .modal_wrap {
+      background-color: #fff;
+      z-index: 5;
+      width: 60%;
+      margin: 100px auto;
+      border-radius: 15px;
+      position: relative;
+    }
+  }
+  
+  .modal_close_area {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    z-index: -5;
+  }
+  
+  
+  
+  .modal_content {
+    height: 500px;
+    overflow-y: scroll;
+  }
+  
+  .modal_img {
+    text-align: center;
+  
+    img {
+      height: 250px;
+      width: auto;
+    }
+  }
+  
+  .modal_closeBtn {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: -35px;
+    right: -30px;
+    margin-left: auto;
+    border-radius: 50%;
+    background-color: #fff;
+  
+    &::before,
+    &::after {
+      @include pseudo(inline-block);
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      width: 1px;
+      height: 24px;
+      border: 0;
+      margin: auto;
+      padding: 0;
+      background-color: $secondary-color;
+    }
+  
+    &::before {
+      -moz-transform: rotate(45deg);
+      -webkit-transform: rotate(45deg);
+      transform: rotate(45deg);
+    }
+  
+    &::after {
+      -moz-transform: rotate(-45deg);
+      -webkit-transform: rotate(-45deg);
+      transform: rotate(-45deg);
+    }
+  }
+  
+  .modal_txt {
+    margin-left: 60px;
+    margin-top: 40px;
+  
+    li {
+      padding-bottom: 12px;
+  
+      &::before {
+        content: "";
+        display: inline-block;
+        background-color: $secondary-color;
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+      }
+  
+      strong {
+        padding-left: 5px;
+        line-height: 1.7;
+      }
+  
+      a {
+        color: $primary-color;
+        display: block;
+        text-decoration: underline gray;
+      }
+    }
+  }
+  
+  .swiper-slide {
+    justify-content: center;
+    display: flex;
+  
+    img {
+      width: auto;
+      height: 250px;
+      box-shadow: 0px 4px 34px 0px rgba(108, 128, 133, 0.3);
+    }
+  }
+  
+  .thumbnail_slider {
+    /* background: linear-gradient(#DEFAFF,$secondary-color); */
+    margin: 0 20px;
+  
+    img {
+      height: 70px;
+      width: auto;
+      box-shadow: 5px 8px 7px -3px rgba(108, 128, 133, 0.2);
+    }
+  }
+  
+  .modal1 .thumbnail_slider {
+    margin: 0 12px;
+  }
+  
+  .swiper-container {
+    &:first-child {
+      padding: 30px;
+    }
+  
+    &:nth-child(2) .swiper-wrapper {
+      transform: none;
+      left: -120px;
+    }
+  }
+  

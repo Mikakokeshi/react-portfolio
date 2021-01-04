@@ -1,0 +1,39 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #77A6D5
+  }
+  
+  body {
+    color: #333;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  h2 {
+    font-family: 'Philosopher', sans-serif;
+    color: #77A6D5;
+    font-size: 55px;
+  }
+  
+  h2.ttl {
+    text-align: center;
+    padding: 57px 30px;
+  }
+  
+  p.description {
+    line-height: 1.5;
+    font-size: 14px;
+  }
+  

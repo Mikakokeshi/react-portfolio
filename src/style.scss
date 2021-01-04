@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@700&family=Roboto:wght@300&display=swap');
+
+$primary-color: #333;
+$secondary-color: #77A6D5;
+
+// 疑似要素 after before  @include pseudo(スド)
+@mixin pseudo($display: block) {
+  content: "";
+  display: $display;
+  position: absolute;
+}
+
+@import "reset";
+@import "home";
+@import "works";
+@import "contact";
+@import "profile";
+
+/* header */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  height: 82px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 1;
+  .header_logo {
+    margin-left: 15%;
+    img {
+      width: 185px;
+    }
+  }
+
+  .menu {
+    display: flex;
+    font-size: 14px;
+    margin-right: 200px;
+    margin-right: 15%;
+    a {
+      color: $primary-color;
+      display: inline-block;
+      width: 85px;
+      text-align: center;
+      &:hover,
+      &.active {
+        color: $secondary-color;
+        font-weight: bold;
+        /* letter-spacing: 1.2px; */
+      }
+    }
+
+    li {
+      padding: 0 15px;
+      position: relative;
+      &:not(:last-child)::after {
+        @include pseudo;
+        height: 100%;
+        width: 1px;
+        background-color: $primary-color;
+        right: 0;
+        top: 0;
+      }
+    }
+  }
+}
+
+/* footer */
+footer {
+  position: relative;
+  bottom: 0;
+  text-align: center;
+  p {
+    bottom: 35px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    font-weight: 400;
+  }
+}
+
+/* 共通 */
+main {
+  margin-top: 82px;
+  &.under {
+    padding-bottom: 100px;
+  }
+}
+.bg {
+  background-image: url(./assets/img/bg.jpg);
+  background-size: cover;
+}
+.container {
+  max-width: 820px;
+  margin: auto;
+}
+
+
+
+

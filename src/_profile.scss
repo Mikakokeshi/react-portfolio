@@ -1,0 +1,44 @@
+/* プロフィール */
+.sec_profile {
+    p.name {
+      font-size: 42px;
+      font-weight: bold;
+      padding-bottom: 17px;
+    }
+    p.age {
+      font-size: 22px;
+      font-weight: bold;
+      padding-bottom: 17px;
+    }
+  
+    .subttl {
+      font-size: 12px;
+      font-weight: bold;
+      line-height: 1.8;
+    }
+  }
+  
+  .sec_skill {
+    padding-top: 10px;
+  }
+  
+  .skill_wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  
+    h3 {
+      padding-bottom: 10px;
+    }
+  
+    &__item {
+      width: 350px;
+      padding-bottom: 50px;
+    }
+  
+  }
+  
+  .skill_graph {
+    margin-left: -12px;
+  }
+  

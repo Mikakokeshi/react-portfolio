@@ -1,10 +1,11 @@
-import './App.css';
+import './style.css';
 import React from 'react'
 import {Home, Profile, Works, Contact} from './components'
 import {Header, Footer} from './components'
 import { BrowserRouter , Route, Switch } from 'react-router-dom';
 
 function App() {
+  
   return (
     <BrowserRouter>
       <Header />
