@@ -12,8 +12,9 @@ const Profile = () => {
                     <span className="subttl">Name</span>
                     <p className="name">M.I</p>
                     <span className="subttl">Age / Gender</span>
-                    <p className="age">27歳 / 女性</p>
-                    <p className="description">過去にWebマーケティング会社、Web制作会社でコーダーとして働いた経験があります。<br/>現在はフロントエンドエンジニアとして知識をReact学習中です。趣味は、最近始めたピアノです。
+                    <p className="age">28歳 / 女性</p>
+                    <p className="description">新卒でWebマーケティング会社でSEOの新規営業として働き、クライアントのwebサイトのソースコードを見るうちにweb制作に興味を持つ。それがきっかけとなり、コーディングを勉強後、Web制作会社に就職する。百貨店のキャンペーンページ、企業のコーポレートサイト、Vtuberの公式サイト等の制作に携わる。
+                    <br/>現在はフロントエンドエンジニアとしてキャリアを積みたいと考え、React勉強中。
                     </p>
                 </div>
             </section>

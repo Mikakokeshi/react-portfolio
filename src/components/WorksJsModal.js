@@ -59,8 +59,8 @@ import 'swiper/css/swiper.css'
                             <ul className="modal_txt">
                                 <li><strong>URL</strong> <a rel="noreferrer" target="_blank" href="https://react-todo-list20201121.herokuapp.com/">https://react-todo-list20201121.herokuapp.com/</a></li>
                                 <li><strong>使用ツール</strong> <p>Photoshop / VSCode</p></li>
-                                <li><strong>使用言語</strong> <p>HTML5 / CSS3 / Javascript</p></li>
-                                <li><strong>詳細</strong> </li>
+                                <li><strong>使用言語</strong> <p>HTML5 / CSS3 / React</p></li>
+                                <li><strong>詳細</strong><p>Taskの入力欄にTODOを記載しSubmitをボタンを押して追加すると、下にリストとして表示される。また、チェック欄にチェックすると打消し線が表示される。右の×ボタンでリストを削除することも出来る。</p></li>
                             </ul>
                         </div>
                     </div>
@@ -115,8 +115,8 @@ import 'swiper/css/swiper.css'
                             <ul className="modal_txt">
                                 <li><strong>URL</strong> <a rel="noreferrer" target="_blank" href="https://react-covid19tracker.herokuapp.com/">https://react-covid19tracker.herokuapp.com/</a></li>
                                 <li><strong>使用ツール</strong> <p>Photoshop / VSCode</p></li>
-                                <li><strong>使用言語</strong> <p>HTML5 / CSS3 / Javascript</p></li>
-                                <li><strong>詳細</strong> </li>
+                                <li><strong>使用言語</strong> <p>HTML5 / CSS3 / React</p></li>
+                                <li><strong>詳細</strong><p>世界各国のコロナの感染者数・回復者数・志望者数がグラフで表示されるアプリ。最初に表示される折れ線グラフは世界の感染者数、セレクトボックスで国別で選択し各国の感染者数・回復者数・死亡者数を確認できる。</p></li>
                             </ul>
                         </div>
                     </div>
@@ -173,8 +173,8 @@ import 'swiper/css/swiper.css'
                             <ul className="modal_txt">
                                 <li><strong>URL</strong> <a rel="noreferrer" target="_blank" href="https://react-quiz-app2020.herokuapp.com/">https://react-quiz-app2020.herokuapp.com/</a></li>
                                 <li><strong>使用ツール</strong> <p>Photoshop / VSCode</p></li>
-                                <li><strong>使用言語</strong> <p>HTML5 / CSS3 / Javascript</p></li>
-                                <li><strong>詳細</strong> </li>
+                                <li><strong>使用言語</strong> <p>HTML5 / CSS3 / React</p></li>
+                                <li><strong>詳細</strong><p>UI/UXの基礎知識10問を4択形式で表示。最後にクイズの正答数・正答率が表示される。</p></li>
                             </ul>
                         </div>
                     </div>

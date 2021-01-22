@@ -60,7 +60,7 @@ import 'swiper/css/swiper.css'
                                 <li><strong>URL</strong> <a rel="noreferrer" target="_blank" href="http://otoko-deonatulle.com/cp/2018/murease-men.html">http://otoko-deonatulle.com/cp/2018/murease-men.html</a></li>
                                 <li><strong>使用ツール</strong> <p>Photoshop / VSCode</p></li>
                                 <li><strong>使用言語</strong> <p>HTML5 / CSS3 / Javascript</p></li>
-                                <li><strong>詳細</strong> </li>
+                                <li><strong>詳細</strong><p>制汗剤の商品のPRページ。PC・SPのレスポンシブ対応。スタイルはSassで記述。動的部分はモーダルの開閉・Topへ戻るボタン等。</p></li>
                             </ul>
                         </div>
                     </div>
@@ -118,7 +118,7 @@ import 'swiper/css/swiper.css'
                                 <li><strong>URL</strong> <a rel="noreferrer" target="_blank" href="http://steinsgate0-anime.com/">http://steinsgate0-anime.com/</a></li>
                                 <li><strong>使用ツール</strong> <p>Photoshop / VSCode</p></li>
                                 <li><strong>使用言語</strong> <p>HTML5 / CSS3 / Javascript</p></li>
-                                <li><strong>詳細</strong> </li>
+                                <li><strong>詳細</strong><p>アニメ公式サイト。PCのフロント対応。スタイルはSassで記述。動的部分は再生ボタンを押すと画面一杯に動画が自動再生。また、Storyエリアでコンテンツの下にあるセレクトボタンをクリックするとコンテンツが切り替わる等。</p></li>
                             </ul>
                         </div>
                     </div>
@@ -176,7 +176,7 @@ import 'swiper/css/swiper.css'
                                 <li><strong>URL</strong> <a rel="noreferrer" target="_blank" href="https://kurumanomori.com/">https://kurumanomori.com/</a></li>
                                 <li><strong>使用ツール</strong> <p>Photoshop / VSCode</p></li>
                                 <li><strong>使用言語</strong> <p>HTML5 / CSS3 / Javascript</p></li>
-                                <li><strong>詳細</strong> </li>
+                                <li><strong>詳細</strong><p>自動車販売専門店公式サイト。スタイルはSassで記述。動的な部分はメインビジュアルの画像とその下の車の画像はスライダーを実装。また車の画像をクリックすると背景がオレンジ色に変わり、ブランド名、メーカー名、もっと見るボタンが出現する実装をしている。</p></li>
                             </ul>
                         </div>
                     </div>
