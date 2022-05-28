@@ -10,11 +10,11 @@ const Profile = () => {
                 <h2 className="ttl">PROFILE</h2>
                 <div className="sec_profile__txt">
                     <span className="subttl">Name</span>
-                    <p className="name">M.I</p>
+                    <p className="name">Mikako Iijima</p>
                     <span className="subttl">Age / Gender</span>
                     <p className="age">28歳 / 女性</p>
-                    <p className="description">新卒でWebマーケティング会社でSEOの新規営業として働き、クライアントのwebサイトのソースコードを見るうちにweb制作に興味を持つ。それがきっかけとなり、コーディングを勉強後、Web制作会社に就職する。百貨店のキャンペーンページ、企業のコーポレートサイト、Vtuberの公式サイト等の制作に携わる。
-                    <br/>現在はフロントエンドエンジニアとしてキャリアを積みたいと考え、React勉強中。
+                    <p className="description">After graduating from college, I worked as an account executive at a web marketing company, where I became interested in web production as I looked at the source code of clients' websites. This led me to study coding and then to work for a web production company. I was involved in the production of campaign pages for a department store, a corporate website for a company, and an official website for a Vtuber.
+Currently I am studying React in order to use modern frameworks in my work.
                     </p>
                 </div>
             </section>
@@ -24,13 +24,13 @@ const Profile = () => {
                     <li className="skill_wrap__item">
                         <h3>HTML/CSS</h3>
                         <div className="skill_graph"><img src={graph_1} alt="グラフ"/></div>
-                        <p className="description">HTML/CSSは問題なく使うことができます。レスポンシブサイトの作成経験もあります。基本的なコーディングは問題ありません。使用するエディターVScodeです。</p>
+                        <p className="description">Experience in creating responsive websites more than 20.</p>
 
                     </li>
                     <li className="skill_wrap__item">
                         <h3>Javascript</h3>
                         <div className="skill_graph"><img src={graph_3} alt="グラフ"/></div>
-                        <p className="description">基本的なDOM操作やAPI取得、またReactライブラリの実装も可能です。</p>
+                        <p className="description">Develop apps through DOM manipulation and API retrieval</p>
 
                     </li>
                 </ul>
