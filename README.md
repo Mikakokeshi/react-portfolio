@@ -1,8 +1,14 @@
 ## App
-My personal portfolio using React Hooks
+My personal portfolio which you can see my past works and a brief self-introduction. <br>
+An inquiry form is also available.
 
-### Package install 
-react-multi-modal/ swiper/ material UI/ Redux thunk
+## Built With
+・React.js<br>
+・react-multi-modal<br>
+・swiper<br>
+・Sass<br>
+・VsCode<br>
 
-### その他
-sassで記述
+## Features
+・Styled with material UI<br>
+・Displayed using a modal for my past works<br>
